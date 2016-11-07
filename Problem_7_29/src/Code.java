@@ -69,14 +69,16 @@ public class Code {
 			}
 
 			/*A loop that suns for 4 slots of the array.
-			 *It is a for loop in a for loop to make sure that there are
-			 *no duplications of the suits
+			 *It is a for loop in a for loop to make sure
+			 *that there are no duplications of the suits
 			 */
 			for (int i=0; i<pickSuit.length; i++) {
 				for (int j=i+1; j<pickSuit.length; j++) {
 					if (pickValue[i] == pickValue[j]) {
 						if (pickSuit[i] == pickSuit[j])
-							//Recalls the custom method that gives a random suit
+							/*Recalls the custom method that 
+							 *gives a random suit
+							 */
 							pickSuit[j] = randomSuit();
 					}
 
@@ -104,7 +106,7 @@ public class Code {
 		String suit[] = {" of Spades", " of Diamonds", " of Hearts"
 				, " of Clubs"};
 
-		//Just a print statement to 
+		//Just a print statement for user interface's sake
 		System.out.print("Four card combinations that yield 24 are ");
 
 		for (int i=0; i<pickValue.length-1; i++) {
