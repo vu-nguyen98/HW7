@@ -1,4 +1,4 @@
-/**This program is based upon the problem 8.11 in Chapter 7 of 
+/**This program is based upon the problem 8.11 in Chapter 8 of 
  * Liang's Intro to Java
  * Found nothing to spice the program up...
  * Additional info to solve the problem was found on StackOverflow
