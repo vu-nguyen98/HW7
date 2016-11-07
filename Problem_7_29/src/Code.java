@@ -115,10 +115,12 @@ public class Code {
 		System.out.println((value[pickValue[3]]) + "" + suit[pickSuit[3]] + ".");
 	}
 
+	//Custom method to randomize value of card
 	private static int randomValue() {
 		return (int)(Math.random() * (14-1) + 1);
 	}
 
+	//Custom method to randomize suit of card
 	private static int randomSuit() {
 		return (int)(Math.random() * 4);
 	}
